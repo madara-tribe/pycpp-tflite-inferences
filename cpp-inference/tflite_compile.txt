@@ -1,0 +1,7 @@
+# https://qiita.com/iwatake2222/items/d998df1981d46285df62
+
+# compile with opencv and tflite (via libtensorflowlite.so)
+gcc inference.cpp -I. -I/usr/include/opencv4  -I./tensorflow -I./tensorflow/lite/tools/make/downloads -I./tensorflow/lite/tools/make/downloads/eigen -I./tensorflow/lite/tools/make/downloads/absl -I./tensorflow/lite/tools/make/downloads/gemmlowp -I./tensorlow/lite/tools/make/downloads/neon_2_sse -I./tensorflow/lite/tools/make/downloads/farmhash/src -I./tensorflow/lite/tools/make/downloads/flatbuffers/include -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -std=c++11 -lstdc++ -ltensorflowlite -L./
+
+# run
+LD_LIBRARY_PATH=. ./a.out
