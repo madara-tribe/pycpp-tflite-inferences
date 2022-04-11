@@ -1,6 +1,6 @@
 # python and c++ tflite inference
 
-# source model
+# source Keras model
 
 source model is 「age-gender-model」 that is tensorflow model .
 
