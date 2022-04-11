@@ -100,11 +100,6 @@ model.compile(optimizer=adam,
 - onnx 1.6.0
 
 
-[python inference](https://github.com/madara-tribe/py_onnx_inference)
-
-[cpp_sample_onnx_inference](https://github.com/madara-tribe/cpp_sample_onnx_inference)
-
-
 # References
 
 - [yu4u/age-gender-estimation](https://github.com/yu4u/age-gender-estimation)
