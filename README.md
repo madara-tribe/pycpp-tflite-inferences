@@ -2,7 +2,7 @@
 
 # source Keras model
 
-source model is 「age-gender-model」 that is tensorflow model .
+source model is 「age-gender-estimataion-model」 that is tensorflow model .
 
 This time, it used as tflite after convert from ```h5``` or ```pb``` model 
 
