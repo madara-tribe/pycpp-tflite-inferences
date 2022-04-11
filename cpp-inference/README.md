@@ -1,7 +1,6 @@
 # cpp_tflite_inference
 
 cpp tflite model inference that converted tf.keras age-gender-model model
-- [age-gender-model](https://github.com/madara-tribe/yolo_age_gender_model)
 
 # tflite inference structure for Cmake project
 ```zsh
