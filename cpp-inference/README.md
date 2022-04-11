@@ -57,9 +57,3 @@ image size: 299 x 299
 pred age: 33  and pred gender: M
 TFLite C++ Inference Latency: 0.031 ms
 ```
-
-# python tflite inference (age-gender-model)
-
-- [python inference](https://github.com/madara-tribe/py_tflite_inference)
-
-
